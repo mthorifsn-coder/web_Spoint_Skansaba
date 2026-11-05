@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPoin – Skansaba Pos Integrated SMKN 1 Bantul</title>
+    <meta name="description" content="Website informasi dan promosi layanan unit Teaching Factory (TEFA) bidang Manajemen Perkantoran SMK Negeri 1 Bantul.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+             <a href="#beranda" class="logo">
+            <img src="logospoint.jpeg" alt="Logo SPoin" class="logo-img">
+            <div class="logo-text-group">
+                <span class="logo-title">SPoin</span>
+                <span class="logo-sub">Skansaba Pos Integrated</span>
+            </div>
+            </a>
+
+            <!-- Navbar disederhanakan -->
+             <ul class="nav-menu" id="navMenu">
+            <!-- Tambahkan data-id dan data-en di setiap link -->
+            <li><a href="#beranda" class="nav-link" data-id="Beranda" data-en="Home">Beranda</a></li>
+            <li><a href="#layanan" class="nav-link" data-id="Layanan" data-en="Services">Layanan</a></li>
+            <li><a href="#transaksi" class="nav-link" data-id="Transaksi" data-en="Transaction">Transaksi</a></li>
+            <li><a href="#galeri" class="nav-link" data-id="Galeri" data-en="Gallery">Galeri</a></li>
+            <li><a href="#lokasi" class="nav-link" data-id="Informasi" data-en="Info">Informasi</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn-lang" id="langToggle" aria-label="Ganti Bahasa">EN</button>
+                
+                <button class="ham-btn" id="hamBtn" aria-label="Buka menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="beranda">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge" data-id="Unit Teaching Factory (TEFA)" data-en="Teaching Factory Unit (TEFA)">Unit Teaching Factory (TEFA)</span>
+                <h1 data-id="Layanan <span class='orange'>Terpadu</span> SPoin" data-en="SPoin <span class='orange'>Integrated</span> Services">Layanan <span class="orange">Terpadu</span> SPoin</h1>
+                <p class="hero-sub" data-id="Skansaba Pos Integrated – Unit layanan berbasis Teaching Factory (TEFA) Manajemen Perkantoran SMK Negeri 1 Bantul." data-en="Skansaba Pos Integrated – A Teaching Factory (TEFA) based service unit for Office Management at SMK Negeri 1 Bantul.">Skansaba Pos Integrated – Unit layanan berbasis Teaching Factory (TEFA) Manajemen Perkantoran SMK Negeri 1 Bantul.</p>
+                <div class="hero-buttons">
+                    <a href="#transaksi" class="btn btn-orange btn-pill">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01"/></svg>
+                        <span data-id="Mulai Transaksi" data-en="Start Transaction">Mulai Transaksi</span>
+                    </a>
+                    <a href="#layanan" class="btn btn-navy btn-pill">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                        <span data-id="Lihat Layanan" data-en="View Services">Lihat Layanan</span>
+                    </a>
+                </div>
+                <p class="hero-note" data-id="✨ Layanan tersedia untuk siswa, guru, dan umum" data-en="✨ Services available for students, teachers, and public">✨ Layanan tersedia untuk siswa, guru, dan umum</p>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-group">
+                    <!-- Nanti ganti 'foto1.jpg' dan 'foto2.jpg' dengan nama file foto Anda -->
+                    <img src="spointluar.jpeg" alt="Kegiatan SPoin 1" class="hero-img img-1" onerror="this.src='https://via.placeholder.com/300x400?text=Foto+1'">
+                    <img src="spoindalam.jpeg" alt="Kegiatan SPoin 2" class="hero-img img-2" onerror="this.src='https://via.placeholder.com/300x400?text=Foto+2'">
+                </div>
+            </div>
+
+        </div> 
+    </section>
+
+    <section class="section" id="layanan">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge" data-id="Layanan" data-en="Services">Layanan</span>
+                <h2 class="section-title" data-id="Pengenalan Layanan SPoin" data-en="SPoin Services Introduction">Pengenalan Layanan SPoin</h2>
+                <p class="section-desc" data-id="Satu unit mengurus seluruh kebutuhan administrasi, percetakan, logistik, dan pembayaran Anda dengan pelayanan yang profesional." data-en="One unit handling all your administrative, printing, logistics, and payment needs with professional service.">Satu unit mengurus seluruh kebutuhan administrasi, percetakan, logistik, dan pembayaran Anda dengan pelayanan yang profesional.</p>
+            </div>
+
+            <div class="layanan-grid">
+                <div class="layanan-card reveal">
+                    <div class="card-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg>
+                    </div>
+                    <h3 data-id="Pengolahan Dokumen & Percetakan" data-en="Document Processing & Printing">Pengolahan Dokumen & Percetakan</h3>
+                    <ul>
+                        <li data-id="Pengetikan & Desain dokumen" data-en="Document Typing & Design">Pengetikan & Desain dokumen</li>
+                        <li data-id="Fotokopi & Scan" data-en="Photocopy & Scan">Fotokopi & Scan</li>
+                        <li data-id="Print (hitam putih & warna)" data-en="Print (B&W & Color)">Print (hitam putih & warna)</li>
+                        <li data-id="Jilid laporan / proposal" data-en="Report / Proposal Binding">Jilid laporan / proposal</li>
+                    </ul>
+                </div>
+
+                <div class="layanan-card reveal">
+                    <div class="card-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v11"/><polyline points="17,10 12,15 7,10"/><line x1="12" y1="15" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3 data-id="Pengiriman Surat & Paket" data-en="Mail & Package Delivery">Pengiriman Surat & Paket</h3>
+                    <ul>
+                        <li data-id="Pengiriman surat biasa & kilat" data-en="Regular & Express Mail">Pengiriman surat biasa & kilat</li>
+                        <li data-id="Pengiriman paket dalam/luar kota" data-en="Local & Out-of-town Package">Pengiriman paket dalam/luar kota</li>
+                        <li data-id="Penimbangan & perhitungan ongkir" data-en="Weighing & Postage Calculation">Penimbangan & perhitungan ongkir</li>
+                        <li data-id="Pelacakan paket (tracking)" data-en="Package Tracking">Pelacakan paket (tracking)</li>
+                    </ul>
+                </div>
+
+                <div class="layanan-card reveal">
+                    <div class="card-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M16 12h2"/><path d="M8 12h.01"/><path d="M12 12h.01"/></svg>
+                    </div>
+                    <h3 data-id="Pembayaran & PPOB" data-en="Payment & PPOB">Pembayaran & PPOB</h3>
+                    <ul>
+                        <li data-id="Pembayaran listrik, air, telepon" data-en="Electricity, Water, Phone Bills">Pembayaran listrik, air, telepon</li>
+                        <li data-id="Top up e-wallet (DANA, Gopay, dll)" data-en="E-Wallet Top Up (DANA, Gopay, etc.)">Top up e-wallet (DANA, Gopay, dll)</li>
+                        <li data-id="Pembelian materai & Pulsa" data-en="Stamp Duty & Cellular Credit">Pembelian materai & Pulsa</li>
+                        <li data-id="Pembayaran BPJS & PBB" data-en="BPJS & Property Tax">Pembayaran BPJS & PBB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transaksi Diubah menjadi Terintegrasi Sistem Pembayaran -->
+    <section class="section section-alt" id="transaksi">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge" data-id="Transaksi" data-en="Transaction">Transaksi</span>
+                <h2 class="section-title" data-id="Area Transaksi Terintegrasi" data-en="Integrated Transaction Area">Area Transaksi Terintegrasi</h2>
+                <p class="section-desc" data-id="Pesan layanan langsung di website. Pilih jenis layanan, isi form, dan selesaikan pembayaran dengan sistem yang kami sediakan." data-en="Order services directly on the website. Choose a service, fill out the form, and complete the payment using our system.">Pesan layanan langsung di website. Pilih jenis layanan, isi form, dan selesaikan pembayaran dengan sistem yang kami sediakan.</p>
+            </div>
+
+            <div class="transaksi-tabs reveal" role="tablist">
+                <button class="transaksi-tab active" data-tab="ppob" data-id="Beli PPOB / Pulsa" data-en="Buy PPOB / Credit">Beli PPOB / Pulsa</button>
+                <button class="transaksi-tab" data-tab="dokumen" data-id="Pesan Dokumen" data-en="Order Document">Pesan Dokumen</button>
+                <button class="transaksi-tab" data-tab="pengiriman" data-id="Kirim Paket" data-en="Send Package">Kirim Paket</button>
+            </div>
+
+            <div class="transaksi-panels reveal">
+                <!-- Panel PPOB -->
+                <div class="transaksi-panel active" id="panel-ppob">
+                    <div class="form-card">
+                        <h3 data-id="Pembelian PPOB / Top Up" data-en="PPOB Purchase / Top Up">Pembelian PPOB / Top Up</h3>
+                        <div class="form-group">
+                            <label for="produk" data-id="Pilih Layanan / Produk" data-en="Select Service / Product">Pilih Layanan / Produk</label>
+                            <select id="produk">
+                                <option value="" data-id="-- Pilih Layanan / Produk --" data-en="-- Select Service / Product --">-- Pilih Layanan / Produk --</option>
+                                <option value="Pulsa Reguler">Pulsa Reguler (All Operator)</option>
+                                <option value="PLN Postpaid">PLN Postpaid</option>
+                                <option value="PLN Prepaid">PLN Prepaid</option>
+                                <option value="BPJS Kesehatan">BPJS Kesehatan</option>
+                                <option value="Telkom/Indihome">Telkom/Indihome</option>
+                                <option value="Top Up DANA">Top Up DANA</option>
+                                <option value="Top Up ShopeePay">Top Up ShopeePay</option>
+                            </select>
+                            <span class="field-error" id="error-produk"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="nomorTujuan" data-id="Nomor Tujuan / No Meter PLN / No BPJS" data-en="Destination Number / PLN Meter / BPJS Number">Nomor Tujuan / No Meter PLN / No BPJS</label>
+                            <input type="text" id="nomorTujuan" placeholder="Contoh: 081234567890">
+                            <span class="field-error" id="error-nomor"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="nominal" data-id="Pilih Nominal Tagihan / Top Up" data-en="Select Bill / Top Up Amount">Pilih Nominal Tagihan / Top Up</label>
+                            <select id="nominal">
+                                <option value="" data-id="-- Pilih Nominal --" data-en="-- Select Amount --">-- Pilih Nominal --</option>
+                                <option value="10000">Rp 10.000</option>
+                                <option value="20000">Rp 20.000</option>
+                                <option value="50000">Rp 50.000</option>
+                                <option value="100000">Rp 100.000</option>
+                            </select>
+                            <span class="field-error" id="error-nominal"></span>
+                        </div>
+                        <!-- Tombol Pilihan PPOB -->
+                        <div class="action-buttons">
+                            <button class="btn btn-orange btn-block btn-pill" id="btnBeli" data-id="Lanjut Pembayaran" data-en="Continue Payment">Lanjut Pembayaran</button>
+                            <button class="btn btn-wa btn-block btn-pill" id="btnBeliWA" style="justify-content: center;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                                <span data-id="Pesan via WA" data-en="Order via WA">Pesan via WA</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel Dokumen -->
+                <div class="transaksi-panel" id="panel-dokumen">
+                    <div class="form-card">
+                        <h3 data-id="Pesan Dokumen & Percetakan" data-en="Order Document & Printing">Pesan Dokumen & Percetakan</h3>
+                        <div class="form-group">
+                            <label for="namaDokumen" data-id="Nama Lengkap" data-en="Full Name">Nama Lengkap</label>
+                            <input type="text" id="namaDokumen" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="keteranganDokumen" data-id="Detail Pesanan & Keterangan" data-en="Order Details & Notes">Detail Pesanan & Keterangan</label>
+                            <textarea id="keteranganDokumen" rows="4" placeholder="Contoh: Print 10 lembar hitam putih..."></textarea>
+                        </div>
+                        <!-- Tombol Pilihan Pengiriman -->
+                        <div class="action-buttons">
+                        <button class="btn btn-orange btn-block btn-pill" id="btnKirimDokumen" data-id="Lanjut Pembayaran" data-en="Continue Payment">Lanjut Pembayaran</button>
+                        <button class="btn btn-wa btn-block btn-pill" id="btnKirimDokumenWA" style="justify-content: center;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                            <span data-id="Pesan via WA" data-en="Order via WA">Pesan via WA</span>
+                        </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel Pengiriman -->
+                <div class="transaksi-panel" id="panel-pengiriman">
+                    <div class="form-card">
+                        <h3 data-id="Pengiriman Surat & Paket" data-en="Mail & Package Delivery">Pengiriman Surat & Paket</h3>
+                        <div class="form-group">
+                            <label for="namaPengiriman" data-id="Nama Pengirim" data-en="Sender Name">Nama Pengirim</label>
+                            <input type="text" id="namaPengiriman" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="tujuanPengiriman" data-id="Alamat Lengkap Tujuan" data-en="Complete Destination Address">Alamat Lengkap Tujuan</label>
+                            <input type="text" id="tujuanPengiriman" placeholder="Jalan, RT/RW, Kota, Kode Pos">
+                        </div>
+                        
+                        <div class="action-buttons">
+                        <button class="btn btn-orange btn-block btn-pill" id="btnKirimPengiriman" data-id="Lanjut Pembayaran" data-en="Continue Payment">Lanjut Pembayaran</button>
+                        <button class="btn btn-wa btn-block btn-pill" id="btnKirimPengirimanWA" style="justify-content: center;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                            <span data-id="Pesan via WA" data-en="Order via WA">Pesan via WA</span>
+                        </button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Modal Pembayaran In-Web -->
+    <div class="modal-overlay" id="paymentModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modalTitle" data-id="Selesaikan Pembayaran" data-en="Complete Payment">Selesaikan Pembayaran</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <!-- STEP 1: Ringkasan & Pilih Metode -->
+                <div id="stepSelection">
+                    <div class="order-summary" id="orderSummary">
+                        <!-- Ringkasan pesanan akan diinjeksi via JS -->
+                    </div>
+                    
+                    <h4 class="payment-title" data-id="Pilih Metode Pembayaran" data-en="Select Payment Method">Pilih Metode Pembayaran</h4>
+                    <div class="payment-methods">
+                        <label class="payment-card">
+                            <input type="radio" name="payment_method" value="QRIS" checked>
+                            <span class="pay-details">
+                                <strong>QRIS</strong>
+                                <span data-id="Scan m-Banking & E-Wallet (Bebas Biaya)" data-en="Scan m-Banking & E-Wallet (Free of Charge)">Scan m-Banking & E-Wallet (Bebas Biaya)</span>
+                            </span>
+                        </label>
+                        <label class="payment-card">
+                            <input type="radio" name="payment_method" value="Transfer Bank">
+                            <span class="pay-details">
+                                <strong data-id="Transfer Bank" data-en="Bank Transfer">Transfer Bank</strong>
+                                <span>Mandiri, BNI, BRI, BCA</span>
+                            </span>
+                        </label>
+                        <label class="payment-card">
+                            <input type="radio" name="payment_method" value="Tunai di Loket">
+                            <span class="pay-details">
+                                <strong data-id="Tunai / Cash" data-en="Cash">Tunai / Cash</strong>
+                                <span data-id="Bayar langsung di loket SPoin" data-en="Pay directly at SPoin counter">Bayar langsung di loket SPoin</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- STEP 2: Instruksi Pembayaran (QRIS/Rekening/Tunai) -->
+                <div id="stepAction" style="display: none;">
+                    <div id="paymentInstruction">
+                        <!-- Detail instruksi bayar diinjeksi via JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <!-- Tombol Lanjut (Step 1) -->
+                <button class="btn btn-navy btn-block btn-pill" id="btnLanjutMetode" data-id="Lanjut Pembayaran" data-en="Continue Payment">Lanjut Pembayaran</button>
+                <!-- Tombol Konfirmasi Selesai (Step 2) -->
+                <button class="btn btn-orange btn-block btn-pill" id="btnKonfirmasiBayar" style="display: none;" data-id="Saya Sudah Bayar" data-en="I Have Paid">Saya Sudah Bayar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sisa Halaman -->
+    <section class="section" id="galeri">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge" data-id="Galeri" data-en="Gallery">Galeri</span>
+                <h2 class="section-title" data-id="Galeri Fasilitas" data-en="Facility Gallery">Galeri Fasilitas</h2>
+            </div>
+            <div class="galeri-grid">
+                <div class="galeri-card reveal">
+                    <img src="spoindalam.jpeg" alt="Spot Layanan Pos" onerror="this.src='https://via.placeholder.com/300x200?text=Foto+Menyusul'">
+                    <h4 style="margin-top: 16px;" data-id="Spot Layanan Pos" data-en="Postal Service Spot">Spot Layanan Pos</h4>
+                </div>
+                <div class="galeri-card reveal">
+                    <img src="tamaprint.jpeg" alt="Percetakan" onerror="this.src='https://via.placeholder.com/300x200?text=Foto+Menyusul'">
+                    <h4 style="margin-top: 16px;" data-id="Area Percetakan & Jilid" data-en="Printing & Binding Area">Area Percetakan & Jilid</h4>
+                </div>
+                <div class="galeri-card reveal">
+                    <img src="admin.jpeg" alt="PPOB" onerror="this.src='https://via.placeholder.com/300x200?text=Foto+Menyusul'">
+                    <h4 style="margin-top: 16px;" data-id="Sudut PPOB & Top Up" data-en="PPOB & Top Up Corner">Sudut PPOB & Top Up</h4>
+                </div>
+                <div class="galeri-card reveal">
+                    <img src="tempattunggu.jpeg" alt="Ruang Tunggu" onerror="this.src='https://via.placeholder.com/300x200?text=Foto+Menyusul'">
+                    <h4 style="margin-top: 16px;" data-id="Ruang Tunggu" data-en="Waiting Room">Ruang Tunggu</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="lokasi">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-badge" data-id="Informasi Tambahan" data-en="Additional Information">Informasi Tambahan</span>
+                <h2 class="section-title" data-id="FAQ, Lokasi & Jam Operasional" data-en="FAQ, Location & Operating Hours">FAQ, Lokasi & Jam Operasional</h2>
+            </div>
+            
+            <div class="faq-list reveal" style="margin-bottom: 48px;">
+                <div class="faq-item">
+                    <button class="faq-question"><span data-id="Apa itu SPoin?" data-en="What is SPoin?">Apa itu SPoin?</span> <span>+</span></button>
+                    <div class="faq-answer"><p data-id="SPoin adalah unit layanan Teaching Factory (TEFA) di SMKN 1 Bantul yang melayani jasa terpadu administrasi, pos, dan pembayaran." data-en="SPoin is a Teaching Factory (TEFA) service unit at SMKN 1 Bantul providing integrated administrative, postal, and payment services.">SPoin adalah unit layanan Teaching Factory (TEFA) di SMKN 1 Bantul yang melayani jasa terpadu administrasi, pos, dan pembayaran.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question"><span data-id="Apakah melayani masyarakat umum?" data-en="Do you serve the general public?">Apakah melayani masyarakat umum?</span> <span>+</span></button>
+                    <div class="faq-answer"><p data-id="Tentu saja! Layanan ini bisa dinikmati oleh siswa, guru, staf, maupun masyarakat sekitar SMKN 1 Bantul." data-en="Absolutely! This service can be enjoyed by students, teachers, staff, and the community around SMKN 1 Bantul.">Tentu saja! Layanan ini bisa dinikmati oleh siswa, guru, staf, maupun masyarakat sekitar SMKN 1 Bantul.</p></div>
+                </div>
+            </div>
+
+            <div class="lokasi-grid">
+                <div class="lokasi-info reveal">
+                    <h4 data-id="Alamat" data-en="Address">Alamat</h4>
+                    <p>Jl. Parangtritis No. KM. 11, Dukuh, Sabdodadi, Kecamatan Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta</p>
+                    <h4 data-id="Kontak Admin" data-en="Admin Contact">Kontak Admin</h4>
+                    <p>+62 851-2260-3819</p>
+                    <h4 data-id="Jam Operasional" data-en="Operating Hours">Jam Operasional</h4>
+                    <p data-id="Senin–Jumat, 08.00–15.00 WIB" data-en="Monday–Friday, 08.00–15.00 WIB">Senin–Jumat, 08.00–15.00 WIB</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=SMK+Negeri+1+Bantul" target="_blank" class="btn btn-navy btn-pill" style="margin-top:16px;" data-id="Petunjuk Arah Maps" data-en="Maps Directions">Petunjuk Arah Maps</a>
+                </div>
+                <div class="lokasi-map reveal">
+                    <iframe src="https://maps.google.com/maps?q=SMK%20Negeri%201%20Bantul&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; min-height: 300px; border-radius: 12px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tombol Hubungi Admin Melayang (Kiri Bawah) -->
+    <a href="https://wa.me/6285122603819" target="_blank" class="floating-wa" aria-label="Hubungi Admin via WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        <span class="wa-text" data-id="Hubungi Admin" data-en="Contact Admin">Hubungi Admin</span>
+    </a>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 SPoin - Skansaba Pos Integrated. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18,15 12,9 6,15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
